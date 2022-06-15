@@ -6,10 +6,18 @@ import githubImg from '../images/github.png';
 export default function Footer() {
 	return (
 		<footer>
-			<img src={twitterImg} alt="" />
-			<img src={facebookImg} alt="" />
-			<img src={instagramImg} alt="" />
-			<img src={githubImg} alt="" />
+			<button>
+				<img src={twitterImg} alt="" />
+			</button>
+			<button>
+				<img src={facebookImg} alt="" />
+			</button>
+			<button>
+				<img src={instagramImg} alt="" />
+			</button>
+			<button>
+				<img src={githubImg} alt="" />
+			</button>
 		</footer>
 	);
 }
